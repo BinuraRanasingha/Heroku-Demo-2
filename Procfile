@@ -1,1 +1,1 @@
-web: gunicorn --port=$PORT --no-browser --enable_nbextensions=True app.ipynb:app
+web: gunicorn --enable_nbextensions=True app.ipynb:app
